@@ -1,10 +1,10 @@
 <div align="center">
   <p>
-    hapi-auth-multiple-strategies
+    `hapi-auth-multiple-strategies`
   </p>
 
   <p>
-    Require multiple authentication strategies in hapi
+    Require multiple authentication strategies in hapi.
   </p>
   <br/>
   <p>
@@ -37,6 +37,63 @@ Join the <a href="https://futurestud.io/university">Future Studio University and
 ## Introduction
 Intro
 
+
+## Installation
+Add `hapi-auth-multiple-strategies` as a dependency to your project:
+
+```bash
+# NPM v5 users, this way is yours
+npm i hapi-auth-multiple-strategies
+
+# you’re using NPM v4:
+npm i -S hapi-auth-multiple-strategies
+```
+
+
+## Usage
+Register `hapi-auth-multiple-strategies` to your hapi server. This will add the `multiple-strategies` authentication scheme to your hapi server.
+
+```js
+await server.register({
+  plugin: require('hapi-rate-limitor')
+})
+
+// went smooth like chocolate :)
+// now your hapi server supports the 'multiple-strategies' auth scheme
+```
+
+Then declare a new authentication strategy base on the `multiple-strategies` scheme and pass in all required `strategies`.
+
+```js
+// Assuming you add the following strategies to your hapi
+server.auth.strategy('session', 'cookie', options);
+server.auth.strategy('jwt', 'bearer', options);
+server.auth.strategy('jwt-refresh', 'token', options);
+
+// create a new strategy that requires both 'jwt' strategies
+server.auth.strategy('jwt-all-in', 'multiple-strategies', {
+  strategies: ['jwt', 'jwt-refresh']
+});
+
+// use the 'jwt-all-in' strategy on your route
+server.route({
+  method: 'GET',
+  path: '/api/logout',
+  config: {
+    auth: 'jwt-all-in',
+    handler: () => 'hey bud, you’re logged out'
+  }
+});
+```
+
+The `jwt-all-in` strategy ensures that an incoming request satisfies both strategies, `jwt` and `jwt-refresh`. If a request doesn’t authenticate with one or more of the strategies, it will return unauthenticated.
+
+
+## Authentication Strategy Options
+When creating a new authentication strategy using the `multiple-strategies` scheme, you’re required to pass in an array of the authentication strategy names that are required.
+
+- **`strategies`**: (Array), required
+  - an array of auth strategy names against a request will be authenticated
 
 ## Links & Resources
 

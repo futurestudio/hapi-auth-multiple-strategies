@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    `hapi-auth-multiple-strategies`
+    <code>hapi-auth-multiple-strategies</code>
   </p>
 
   <p>
@@ -55,7 +55,7 @@ Register `hapi-auth-multiple-strategies` to your hapi server. This will add the 
 
 ```js
 await server.register({
-  plugin: require('hapi-rate-limitor')
+  plugin: require('hapi-auth-multiple-strategies')
 })
 
 // went smooth like chocolate :)
@@ -65,8 +65,7 @@ await server.register({
 Then declare a new authentication strategy base on the `multiple-strategies` scheme and pass in all required `strategies`.
 
 ```js
-// Assuming you add the following strategies to your hapi
-server.auth.strategy('session', 'cookie', options);
+// Assuming you have the following strategies your server
 server.auth.strategy('jwt', 'bearer', options);
 server.auth.strategy('jwt-refresh', 'token', options);
 
@@ -86,7 +85,9 @@ server.route({
 });
 ```
 
-The `jwt-all-in` strategy ensures that an incoming request satisfies both strategies, `jwt` and `jwt-refresh`. If a request doesn’t authenticate with one or more of the strategies, it will return unauthenticated.
+The `jwt-all-in` strategy ensures that an incoming request satisfies both strategies, `jwt` and `jwt-refresh`.
+
+If a request doesn’t authenticate with one or more of the strategies, it will return unauthenticated.
 
 
 ## Authentication Strategy Options

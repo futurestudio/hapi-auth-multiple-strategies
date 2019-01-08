@@ -20,7 +20,7 @@
     "eslint-plugin-promise": "~4.0.0",
     "eslint-plugin-standard": "~4.0.0",
     "hapi": "~17.8.1",
-    "husky": "~1.2.0",
+    "husky": "~1.3.1",
     "lab": "~18.0.1"
   },
   "engines": {
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/fs-opensource/hapi-auth-multiple-strategies#readme",
   "husky": {
     "hooks": {
-      "pre-push": "npm run lint"
+      "pre-push": "npm test"
     }
   },
   "keywords": [

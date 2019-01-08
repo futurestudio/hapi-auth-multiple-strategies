@@ -1,0 +1,63 @@
+<div align="center">
+  <p>
+    hapi-auth-multiple-strategies
+  </p>
+
+  <p>
+    Solid and easy to use rate limiting for hapi.
+  </p>
+  <br/>
+  <p>
+    <a href="#installation"><strong>Installation</strong></a> ·
+    <a href="#usage"><strong>Usage</strong></a>
+  </p>
+  <br/>
+  <br/>
+  <p>
+    <a href="https://travis-ci.org/fs-opensource/hapi-auth-multiple-strategies"><img src="https://camo.githubusercontent.com/9f56ef242c6f588f74f39f0bd61c1acd34d853af/68747470733a2f2f7472617669732d63692e6f72672f66732d6f70656e736f757263652f686170692d67656f2d6c6f636174652e7376673f6272616e63683d6d6173746572" alt="Build Status" data-canonical-src="https://travis-ci.org/fs-opensource/hapi-auth-multiple-strategies.svg?branch=master" style="max-width:100%;"></a>
+    <a href="https://snyk.io/test/github/fs-opensource/hapi-auth-multiple-strategies"><img src="https://snyk.io/test/github/fs-opensource/hapi-auth-multiple-strategies/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/fs-opensource/hapi-auth-multiple-strategies" style="max-width:100%;"></a>
+    <a href="https://www.npmjs.com/package/hapi-auth-multiple-strategies"><img src="https://img.shields.io/npm/v/hapi-auth-multiple-strategies.svg" alt="hapi-auth-multiple-strategies Version" data-canonical-src="https://img.shields.io/npm/v/hapi-auth-multiple-strategies.svg" style="max-width:100%;"></a>
+    <a href="https://greenkeeper.io/" rel="nofollow"><img src="https://camo.githubusercontent.com/051af59d851fe8e39db57c2a3648caca6d4c4d72/68747470733a2f2f6261646765732e677265656e6b65657065722e696f2f66732d6f70656e736f757263652f686170692d726174652d6c696d69746f722e737667" alt="Greenkeeper badge" data-canonical-src="https://badges.greenkeeper.io/fs-opensource/hapi-auth-multiple-strategies.svg" style="max-width:100%;"></a>
+  </p>
+  <p>
+    <em>Follow <a href="http://twitter.com/marcuspoehls">@marcuspoehls</a> for updates!</em>
+  </p>
+</div>
+
+------
+
+<p align="center"><sup>The <a href="https://futurestud.io">Future Studio University</a> supports development of this hapi plugin 🚀</sup>
+<br><b>
+Join the <a href="https://futurestud.io/university">Future Studio University and Skyrocket in Node.js</a></b>
+</p>
+
+------
+
+
+## Introduction
+Intro
+
+
+## Links & Resources
+
+- [hapi tutorial series](https://futurestud.io/tutorials/hapi-get-your-server-up-and-running) with 100+ tutorials
+
+
+## Contributing
+
+1.  Create a fork
+2.  Create your feature branch: `git checkout -b my-feature`
+3.  Commit your changes: `git commit -am 'Add some feature'`
+4.  Push to the branch: `git push origin my-new-feature`
+5.  Submit a pull request 🚀
+
+
+## License
+
+MIT © [Future Studio](https://futurestud.io)
+
+---
+
+> [futurestud.io](https://futurestud.io) &nbsp;&middot;&nbsp;
+> GitHub [@fs-opensource](https://github.com/fs-opensource/) &nbsp;&middot;&nbsp;
+> Twitter [@futurestud_io](https://twitter.com/futurestud_io)

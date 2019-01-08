@@ -1,0 +1,53 @@
+{
+  "name": "hapi-auth-multiple-strategies",
+  "description": "hapi plugin to require multiple authentication strategies",
+  "version": "0.0.0",
+  "author": "Future Studio <info@futurestud.io>",
+  "bugs": {
+    "url": "https://github.com/fs-opensource/hapi-auth-multiple-strategies/issues"
+  },
+  "dependencies": {
+    "joi": "~14.3.1",
+    "p-iteration": "~1.1.7"
+  },
+  "devDependencies": {
+    "boom": "~7.3.0",
+    "code": "~5.2.4",
+    "eslint": "~5.12.0",
+    "eslint-config-standard": "~12.0.0",
+    "eslint-plugin-import": "~2.14.0",
+    "eslint-plugin-node": "~8.0.0",
+    "eslint-plugin-promise": "~4.0.0",
+    "eslint-plugin-standard": "~4.0.0",
+    "hapi": "~17.8.1",
+    "husky": "~1.2.0",
+    "lab": "~18.0.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/fs-opensource/hapi-auth-multiple-strategies#readme",
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
+  },
+  "keywords": [
+    "hapi",
+    "hapi.js",
+    "hapijs",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fs-opensource/hapi-auth-multiple-strategies.git"
+  },
+  "scripts": {
+    "format": "eslint **/*.js --fix",
+    "lint": "eslint **/*.js",
+    "test": "lab --coverage --leaks --lint",
+    "test-single": "npm run lint && ava --match"
+  }
+}

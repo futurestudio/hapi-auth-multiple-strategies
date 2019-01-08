@@ -4,7 +4,7 @@
   </p>
 
   <p>
-    Solid and easy to use rate limiting for hapi.
+    Require multiple authentication strategies in hapi
   </p>
   <br/>
   <p>

@@ -1,7 +1,7 @@
 {
   "name": "hapi-auth-multiple-strategies",
   "description": "hapi plugin to require multiple authentication strategies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Future Studio <info@futurestud.io>",
   "bugs": {
     "url": "https://github.com/fs-opensource/hapi-auth-multiple-strategies/issues"

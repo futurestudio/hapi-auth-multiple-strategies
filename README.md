@@ -106,7 +106,7 @@ Because hapi authorizes requests via the `scope` property, you’ll find the agg
 
 Here’s a sample result of `request.auth.credentials`:
 
-```json
+```js
 {
   jwt: { name: 'Marcus', scope: [ 'admin' ] }
   'jwt-refresh': { username: 'marcus', name: 'Marcus', scope: [ 'user' ] }

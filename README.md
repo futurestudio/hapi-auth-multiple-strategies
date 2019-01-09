@@ -35,7 +35,7 @@ Join the <a href="https://futurestud.io/university">Future Studio University and
 
 
 ## Introduction
-Intro
+Add `hapi-auth-multiple-strategies` in your hapi project to authenticate a request against multiple authentication strategies. Hapi allows you to define multiple auth strategies on a route, but this requires only a single strategy to authenticate the request. In contrast, `hapi-auth-multiple-strategies` requires all strategies to be successful.
 
 
 ## Installation
@@ -95,6 +95,27 @@ When creating a new authentication strategy using the `multiple-strategies` sche
 
 - **`strategies`**: (Array), required
   - an array of auth strategy names against a request will be authenticated
+
+
+## Credentials & Scope
+Typically the `request.auth.credentials` is populated with the credentials from a single strategy. When testing multiple strategies, you’ll get the credentials from all strategies.
+
+When a request passes all authentication strategies, the related credentials are assigned to the strategy’s name in `request.auth.credentials`.
+
+Because hapi authorizes requests via the `scope` property, you’ll find the aggregated scope from all strategies in the credentials as well.
+
+Here’s a sample result of `request.auth.credentials`:
+
+```json
+{
+  jwt: { name: 'Marcus', scope: [ 'admin' ] }
+  'jwt-refresh': { username: 'marcus', name: 'Marcus', scope: [ 'user' ] }
+  scope: [ 'admin', 'user' ]
+});
+```
+
+Enjoy!
+
 
 ## Links & Resources
 

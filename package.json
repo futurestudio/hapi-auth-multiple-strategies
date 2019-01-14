@@ -29,7 +29,7 @@
   "homepage": "https://github.com/fs-opensource/hapi-auth-multiple-strategies#readme",
   "husky": {
     "hooks": {
-      "pre-push": "npm test"
+      "pre-push": "npm run lint"
     }
   },
   "keywords": [

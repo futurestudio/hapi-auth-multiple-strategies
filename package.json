@@ -36,7 +36,11 @@
     "hapi",
     "hapi.js",
     "hapijs",
-    "plugin"
+    "plugin",
+    "auth",
+    "authentication",
+    "multiple authentication",
+    "futurestudio"
   ],
   "license": "MIT",
   "main": "lib/index.js",

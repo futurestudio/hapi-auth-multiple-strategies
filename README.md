@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    width="471" style="max-width:100%;"
+    width="571" style="max-width:100%;"
     src="https://github.com/fs-opensource/hapi-auth-multiple-strategies/blob/master/media/hapi-auth-multiple-strategies.png?raw=true"
     alt="hapi-auth-multiple-strategies logo">
   <br/>

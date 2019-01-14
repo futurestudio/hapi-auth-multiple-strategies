@@ -1,8 +1,10 @@
 <div align="center">
-  <p>
-    <code>hapi-auth-multiple-strategies</code>
-  </p>
-
+  <img
+    width="471" style="max-width:100%;"
+    src="https://github.com/fs-opensource/hapi-auth-multiple-strategies/blob/master/media/hapi-auth-multiple-strategies.png?raw=true"
+    alt="hapi-auth-multiple-strategies logo">
+  <br/>
+  <br/>
   <p>
     Require multiple authentication strategies in hapi.
   </p>

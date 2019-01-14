@@ -16,7 +16,7 @@ async function prepareServer () {
   server.auth.scheme('succeeding', function (_, options) {
     return {
       authenticate (_, h) {
-        return h.authenticated({ credentials: options.value })
+        return h.authenticated({ credentials: options.value, artifacts: options.artifacts })
       }
     }
   })
@@ -29,7 +29,7 @@ async function prepareServer () {
     }
   })
 
-  server.auth.strategy('firstAuth', 'succeeding', { value: { first: 1 } })
+  server.auth.strategy('firstAuth', 'succeeding', { value: { first: 1 }, artifacts: { name: 'Marcus' } })
   server.auth.strategy('secondAuth', 'succeeding', { value: { second: 2, scope: ['user', 'admin'] } })
   server.auth.strategy('stringAuth', 'succeeding', { value: 'string' })
   server.auth.strategy('failAuth', 'failing')
@@ -99,6 +99,10 @@ describe('Multiple Strategies Scheme', () => {
         scope: ['user', 'admin'],
         firstAuth: { first: 1 },
         secondAuth: { second: 2, scope: ['user', 'admin'] }
+      },
+      artifacts: {
+        firstAuth: { name: 'Marcus' },
+        secondAuth: {}
       },
       strategy: 'firstSecond'
     })

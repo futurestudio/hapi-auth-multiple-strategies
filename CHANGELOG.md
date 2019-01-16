@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [1.0.2](https://github.com/fs-opensource/hapi-auth-multiple-strategies/compare/v1.0.1...v1.0.2) - 2019-01-16
+
+### Updated
+- Readme: link [strategy options](https://github.com/fs-opensource/hapi-auth-multiple-strategies#authentication-strategy-options)
+
+
 ## [1.0.1](https://github.com/fs-opensource/hapi-auth-multiple-strategies/compare/v1.0.0...v1.0.1) - 2019-01-09
 
 ### Updated

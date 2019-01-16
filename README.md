@@ -11,7 +11,7 @@
   <br/>
   <p>
     <a href="#installation"><strong>Installation</strong></a> ·
-    <a href="#usage"><strong>Usage</strong></a>
+    <a href="#usage"><strong>Usage</strong></a> ·
     <a href="#authentication-strategy-options"><strong>Strategy Options</strong></a>
   </p>
   <br/>

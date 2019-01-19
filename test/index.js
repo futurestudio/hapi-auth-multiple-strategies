@@ -87,13 +87,14 @@ async function prepareServer () {
 describe('Multiple Strategies Scheme', () => {
   it('authenticates multiple strategies at once', async () => {
     const server = await prepareServer()
-    const res = await server.inject({
+
+    const { statusCode, result } = await server.inject({
       method: 'GET',
       url: '/first/second'
     })
 
-    expect(res.statusCode).to.equal(200)
-    expect(res.result).to.include({
+    expect(statusCode).to.equal(200)
+    expect(result).to.include({
       isAuthenticated: true,
       credentials: {
         scope: ['user', 'admin'],
@@ -102,7 +103,7 @@ describe('Multiple Strategies Scheme', () => {
       },
       artifacts: {
         firstAuth: { name: 'Marcus' },
-        secondAuth: {}
+        secondAuth: undefined
       },
       strategy: 'firstSecond'
     })

@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [2.0.3](https://github.com/futurestudio/hapi-auth-multiple-strategies/compare/v2.0.2...v2.0.3) - 2019-02-07
+
+### Updated
+- ensure that string scopes are handled correctly
+
+
 ## [2.0.2](https://github.com/futurestudio/hapi-auth-multiple-strategies/compare/v2.0.1...v2.0.2) - 2019-02-06
 
 ### Updated

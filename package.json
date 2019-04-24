@@ -6,22 +6,28 @@
   "bugs": {
     "url": "https://github.com/futurestudio/hapi-auth-multiple-strategies/issues"
   },
+  "contributors": [
+    {
+      "name": "Marcus Poehls",
+      "email": "marcus@futurestud.io"
+    }
+  ],
   "dependencies": {
-    "joi": "~14.3.1",
-    "p-iteration": "~1.1.7"
+    "@hapi/joi": "~15.0.0",
+    "p-iteration": "~1.1.8"
   },
   "devDependencies": {
-    "boom": "~7.3.0",
-    "code": "~5.2.4",
+    "@hapi/boom": "~7.4.2",
+    "@hapi/code": "~5.3.1",
+    "@hapi/hapi": "~18.3.1",
+    "@hapi/lab": "~18.1.2",
     "eslint": "~5.16.0",
     "eslint-config-standard": "~12.0.0",
-    "eslint-plugin-import": "~2.17.0",
+    "eslint-plugin-import": "~2.17.2",
     "eslint-plugin-node": "~8.0.1",
-    "eslint-plugin-promise": "~4.1.0",
+    "eslint-plugin-promise": "~4.1.1",
     "eslint-plugin-standard": "~4.0.0",
-    "hapi": "~18.1.0",
-    "husky": "~1.3.1",
-    "lab": "~18.0.2"
+    "husky": "~1.3.1"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -38,9 +44,9 @@
     "hapijs",
     "plugin",
     "auth",
+    "futurestudio",
     "authentication",
-    "multiple authentication",
-    "futurestudio"
+    "multiple authentication"
   ],
   "license": "MIT",
   "main": "lib/index.js",

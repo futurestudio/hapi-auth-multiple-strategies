@@ -1,11 +1,10 @@
 'use strict'
 
-const Lab = require('lab')
-const Code = require('code')
-const Hapi = require('hapi')
 const Plugin = require('../lib')
+const Lab = require('@hapi/lab')
+const Hapi = require('@hapi/hapi')
+const { expect } = require('@hapi/code')
 
-const { expect } = Code
 const { describe, it } = exports.lab = Lab.script()
 
 describe('Multiple Strategies Scheme', () => {

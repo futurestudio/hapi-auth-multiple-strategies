@@ -1,12 +1,11 @@
 'use strict'
 
-const Lab = require('lab')
-const Code = require('code')
-const Hapi = require('hapi')
-const Boom = require('boom')
 const Plugin = require('../lib')
+const Lab = require('@hapi/lab')
+const Hapi = require('@hapi/hapi')
+const Boom = require('@hapi/boom')
+const { expect } = require('@hapi/code')
 
-const { expect } = Code
 const { describe, it } = exports.lab = Lab.script()
 
 async function prepareServer () {

@@ -1,7 +1,7 @@
 # Changelog
 
 
-## [2.0.5](https://github.com/futurestudio/hapi-auth-multiple-strategies/compare/v2.0.4...v2.0.5) - 2019-04-25
+## [2.0.5](https://github.com/futurestudio/hapi-auth-multiple-strategies/compare/v2.0.4...v2.0.5) - 2019-04-24
 
 ### Updated
 - updating to the scoped hapi dependencies

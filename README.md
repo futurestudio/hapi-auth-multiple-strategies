@@ -19,7 +19,8 @@
   <p>
     <a href="https://travis-ci.org/futurestudio/hapi-auth-multiple-strategies"><img src="https://travis-ci.org/futurestudio/hapi-auth-multiple-strategies.svg?branch=master" alt="Build Status" data-canonical-src="https://travis-ci.org/futurestudio/hapi-auth-multiple-strategies.svg?branch=master" style="max-width:100%;"></a>
     <a href="https://snyk.io/test/github/futurestudio/hapi-auth-multiple-strategies"><img src="https://snyk.io/test/github/futurestudio/hapi-auth-multiple-strategies/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/futurestudio/hapi-auth-multiple-strategies" style="max-width:100%;"></a>
-    <a href="https://www.npmjs.com/package/hapi-auth-multiple-strategies"><img src="https://img.shields.io/npm/v/hapi-auth-multiple-strategies.svg" alt="hapi-auth-multiple-strategies Version" data-canonical-src="https://img.shields.io/npm/v/hapi-auth-multiple-strategies.svg" style="max-width:100%;"></a>
+    <a href="https://www.npmjs.com/package/hapi-auth-multiple-strategies"><img src="https://img.shields.io/npm/v/hapi-auth-multiple-strategies.svg" alt="hapi-auth-multiple-strategies Version"></a>
+    <a href="https://www.npmjs.com/package/hapi-auth-multiple-strategies"><img src="https://img.shields.io/npm/dt/hapi-auth-multiple-strategies.svg" alt="Total downloads"></a>
     <a href="https://greenkeeper.io/" rel="nofollow"><img src="https://badges.greenkeeper.io/futurestudio/hapi-auth-multiple-strategies.svg" alt="Greenkeeper badge" data-canonical-src="https://badges.greenkeeper.io/futurestudio/hapi-auth-multiple-strategies.svg" style="max-width:100%;"></a>
   </p>
   <p>

@@ -13,21 +13,21 @@
     }
   ],
   "dependencies": {
-    "@hapi/joi": "~15.1.0",
+    "@hapi/joi": "~15.1.1",
     "@supercharge/collections": "~1.4.1"
   },
   "devDependencies": {
-    "@hapi/boom": "~7.4.2",
+    "@hapi/boom": "~7.4.3",
     "@hapi/code": "~6.0.0",
-    "@hapi/hapi": "~18.3.1",
+    "@hapi/hapi": "~18.3.2",
     "@hapi/lab": "~20.1.0",
-    "eslint": "~6.2.0",
+    "eslint": "~6.2.1",
     "eslint-config-standard": "~14.0.0",
     "eslint-plugin-import": "~2.18.2",
     "eslint-plugin-node": "~9.1.0",
     "eslint-plugin-promise": "~4.2.1",
-    "eslint-plugin-standard": "~4.0.0",
-    "husky": "~3.0.1"
+    "eslint-plugin-standard": "~4.0.1",
+    "husky": "~3.0.4"
   },
   "engines": {
     "node": ">=8.0.0"

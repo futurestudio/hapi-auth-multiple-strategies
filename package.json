@@ -13,7 +13,7 @@
     }
   ],
   "dependencies": {
-    "@hapi/joi": "~15.1.1",
+    "@hapi/joi": "~16.0.0",
     "@supercharge/collections": "~1.4.1"
   },
   "devDependencies": {

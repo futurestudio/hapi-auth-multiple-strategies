@@ -1,6 +1,17 @@
 # Changelog
 
 
+## [2.1.0](https://github.com/futurestudio/hapi-auth-multiple-strategies/compare/v2.0.5...v2.1.0) - 2019-10-12
+
+### Added
+- use [Joi v16](https://github.com/hapijs/joi) for options validation
+
+### Updated
+- bump dependencies
+- remove Node.js v11 from Travis testing
+- move auth handling into a dedicated `Authenticator` class
+
+
 ## [2.0.5](https://github.com/futurestudio/hapi-auth-multiple-strategies/compare/v2.0.4...v2.0.5) - 2019-04-24
 
 ### Updated

@@ -2,16 +2,10 @@
   "name": "hapi-auth-multiple-strategies",
   "description": "hapi plugin to require multiple authentication strategies",
   "version": "2.1.0",
-  "author": "Future Studio <info@futurestud.io>",
+  "author": "Marcus Pöhls <marcus@futurestud.io>",
   "bugs": {
     "url": "https://github.com/futurestudio/hapi-auth-multiple-strategies/issues"
   },
-  "contributors": [
-    {
-      "name": "Marcus Pöhls",
-      "email": "marcus@futurestud.io"
-    }
-  ],
   "dependencies": {
     "@hapi/joi": "~16.1.7",
     "@supercharge/collections": "~1.7.0"
@@ -50,6 +44,7 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/futurestudio/hapi-auth-multiple-strategies.git"

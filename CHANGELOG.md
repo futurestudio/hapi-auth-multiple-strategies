@@ -1,6 +1,12 @@
 # Changelog
 
 
+## [2.2.0](https://github.com/futurestudio/hapi-auth-multiple-strategies/compare/v2.1.0...v2.2.0) - 2019-10-17
+
+### Added
+- basic TypeScript declarations in `lib/index.d.ts`
+
+
 ## [2.1.0](https://github.com/futurestudio/hapi-auth-multiple-strategies/compare/v2.0.5...v2.1.0) - 2019-10-12
 
 ### Added

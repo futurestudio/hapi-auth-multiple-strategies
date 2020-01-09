@@ -46,12 +46,22 @@ Add `hapi-auth-multiple-strategies` in your hapi project to authenticate a reque
 Add `hapi-auth-multiple-strategies` as a dependency to your project:
 
 ```bash
-# NPM v5 users, this way is yours
 npm i hapi-auth-multiple-strategies
-
-# you’re using NPM v4:
-npm i -S hapi-auth-multiple-strategies
 ```
+
+
+## Requirements
+> **hapi v19 (or later)** and **Node.js v12 (or newer)**
+
+This plugin requires **hapi v19** (or later) and **Node.js v12 or newer**.
+
+
+### Compatibility
+| Major Release | [hapi.js](https://github.com/hapijs/hapi) version | Node.js version |
+| --- | --- | --- |
+| `v3` | `>=19 @hapi/hapi` | `>=12` |
+| `v2` | `>=18 hapi` | `>=8` |
+| `v1` | `>=17 hapi` | `>=8` |
 
 
 ## Usage

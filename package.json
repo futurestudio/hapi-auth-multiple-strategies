@@ -7,24 +7,24 @@
     "url": "https://github.com/futurestudio/hapi-auth-multiple-strategies/issues"
   },
   "dependencies": {
-    "@hapi/joi": "~16.1.7",
-    "@supercharge/collections": "~1.9.0"
+    "@hapi/joi": "~17.0.0",
+    "@supercharge/collections": "~1.9.1"
   },
   "devDependencies": {
-    "@hapi/boom": "~8.0.1",
-    "@hapi/code": "~8.0.0",
+    "@hapi/boom": "~9.0.0",
+    "@hapi/code": "~8.0.1",
     "@hapi/hapi": "~18.4.0",
-    "@hapi/lab": "~22.0.1",
-    "eslint": "~6.7.0",
+    "@hapi/lab": "~22.0.3",
+    "eslint": "~6.8.0",
     "eslint-config-standard": "~14.1.0",
-    "eslint-plugin-import": "~2.19.0",
+    "eslint-plugin-import": "~2.19.1",
     "eslint-plugin-node": "~11.0.0",
     "eslint-plugin-promise": "~4.2.1",
     "eslint-plugin-standard": "~4.0.1",
-    "husky": "~4.0.2"
+    "husky": "~4.0.3"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=12"
   },
   "homepage": "https://github.com/futurestudio/hapi-auth-multiple-strategies#readme",
   "husky": {

@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [3.0.0](https://github.com/futurestudio/hapi-auth-multiple-strategies/compare/v2.2.0...v3.0.0) - 2020-xx-xx
+
+### Breaking Changes
+- require hapi v19
+- require Node.js v12
+
+
 ## [2.2.0](https://github.com/futurestudio/hapi-auth-multiple-strategies/compare/v2.1.0...v2.2.0) - 2019-10-17
 
 ### Added

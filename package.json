@@ -7,7 +7,7 @@
     "url": "https://github.com/futurestudio/hapi-auth-multiple-strategies/issues"
   },
   "dependencies": {
-    "@hapi/joi": "~17.0.2",
+    "@hapi/joi": "~17.1.0",
     "@supercharge/collections": "~1.11.0"
   },
   "devDependencies": {

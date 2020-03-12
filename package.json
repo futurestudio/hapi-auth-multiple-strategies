@@ -11,7 +11,7 @@
     "@supercharge/collections": "~1.12.0"
   },
   "devDependencies": {
-    "@hapi/boom": "~9.0.0",
+    "@hapi/boom": "~9.1.0",
     "@hapi/code": "~8.0.1",
     "@hapi/hapi": "~19.1.0",
     "@hapi/lab": "~22.0.3",

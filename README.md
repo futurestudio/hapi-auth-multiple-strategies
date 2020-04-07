@@ -21,7 +21,6 @@
     <a href="https://snyk.io/test/github/futurestudio/hapi-auth-multiple-strategies"><img src="https://snyk.io/test/github/futurestudio/hapi-auth-multiple-strategies/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/futurestudio/hapi-auth-multiple-strategies" style="max-width:100%;"></a>
     <a href="https://www.npmjs.com/package/hapi-auth-multiple-strategies"><img src="https://img.shields.io/npm/v/hapi-auth-multiple-strategies.svg" alt="hapi-auth-multiple-strategies Version"></a>
     <a href="https://www.npmjs.com/package/hapi-auth-multiple-strategies"><img src="https://img.shields.io/npm/dm/hapi-auth-multiple-strategies.svg" alt="Total downloads"></a>
-    <a href="https://greenkeeper.io/" rel="nofollow"><img src="https://badges.greenkeeper.io/futurestudio/hapi-auth-multiple-strategies.svg" alt="Greenkeeper badge" data-canonical-src="https://badges.greenkeeper.io/futurestudio/hapi-auth-multiple-strategies.svg" style="max-width:100%;"></a>
   </p>
   <p>
     <em>Follow <a href="http://twitter.com/marcuspoehls">@marcuspoehls</a> for updates!</em>

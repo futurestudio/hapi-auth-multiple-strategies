@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@hapi/joi": "~17.1.0",
-    "@supercharge/collections": "~1.13.0"
+    "@supercharge/collections": "~4.1.0"
   },
   "devDependencies": {
     "@hapi/boom": "~9.1.0",

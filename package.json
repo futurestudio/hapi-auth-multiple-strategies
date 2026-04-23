@@ -21,7 +21,7 @@
     "eslint-plugin-node": "~11.1.0",
     "eslint-plugin-promise": "~6.1.0",
     "eslint-plugin-standard": "~4.1.0",
-    "husky": "~9.0.1"
+    "husky": "~9.1.7"
   },
   "engines": {
     "node": ">=12"
